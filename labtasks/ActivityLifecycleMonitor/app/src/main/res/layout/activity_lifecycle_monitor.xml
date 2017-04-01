@@ -16,7 +16,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:contentDescription="@string/icon_image_view_content_description"
-        android:src="@drawable/ic_launcher"/>
+        android:src="@drawable/ic_launcher"
+        android:saveEnabled="false"/>
 
     <EditText
         android:id="@+id/username_edit_text"
